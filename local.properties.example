@@ -1,5 +1,6 @@
 ## Copy this file to local.properties and fill in values.
 ## NEVER commit local.properties or real secrets.
+## NEVER put TWITCH_CLIENT_SECRET in the app — Device Code login does not need it.
 
 ## SDK path (Android Studio usually writes this automatically):
 # sdk.dir=/Users/YOU/Library/Android/sdk

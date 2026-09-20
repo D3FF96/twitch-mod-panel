@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Twitch Mod Panel</string>
+    <string name="login_title">Вход через Twitch</string>
+    <string name="login_subtitle">Панель модератора · MVP</string>
+    <string name="login_button">Войти с Twitch</string>
+    <string name="login_client_id_hint">Нужен Client ID из Twitch Developer Console. Скопируйте local.properties.example → local.properties и укажите TWITCH_CLIENT_ID. Вход — Device Code (редирект не обязателен). Client Secret в приложение не кладите.</string>
+    <string name="login_stub_continue">Продолжить без OAuth (stub)</string>
+
+    <string name="login_device_hint">Откройте Twitch, введите этот код и подтвердите доступ:</string>
+    <string name="login_device_tap_copy">Нажмите на код, чтобы скопировать</string>
+    <string name="login_device_open">Открыть Twitch</string>
+    <string name="login_device_cancel">Отменить вход</string>
+    <string name="channels_title">Каналы</string>
+    <string name="channels_empty">Нет каналов, где вы модератор</string>
+    <string name="chat_composer_hint">Сообщение…</string>
+    <string name="chat_send">Отправить</string>
+    <string name="chat_live">LIVE</string>
+    <string name="chat_offline">OFFLINE</string>
+    <string name="chat_reply">Ответить</string>
+    <string name="chat_reply_chip">Ответ @%1$s</string>
+    <string name="chat_reply_clear">Сбросить ответ</string>
+    <string name="mod_actions">Действия модератора</string>
+    <string name="mod_timeout">Timeout</string>
+    <string name="mod_ban">Ban</string>
+    <string name="mod_delete">Delete</string>
+    <string name="mod_unban">Unban</string>
+    <string name="cancel">Отмена</string>
+    <string name="profile_stub_bio">Stub profile — биография пользователя пока недоступна.</string>
+    <string name="profile_badges">Бейджи: %1$s</string>
+    <string name="profile_open_twitch">Открыть на Twitch</string>
+    <string name="stream_expand">Развернуть плеер</string>
+    <string name="stream_collapse">Свернуть плеер</string>
+    <string name="stream_mute">Выключить звук</string>
+    <string name="stream_unmute">Включить звук</string>
+    <string name="stream_audio_playing">Аудио стрима…</string>
+    <string name="stream_audio_muted">Звук выключен</string>
+    <string name="stream_stub_playing">▶ Playing (stub)</string>
+    <string name="stream_embed_hint">Embed: player.twitch.tv/?channel=%1$s · parent может потребовать правки</string>
+    <string name="quick_commands_title">Быстрые команды</string>
+    <string name="quick_commands_add">Добавить</string>
+    <string name="quick_commands_edit">Изменить</string>
+    <string name="quick_commands_delete">Удалить</string>
+    <string name="quick_commands_name">Название</string>
+    <string name="quick_commands_body">Текст ответа</string>
+    <string name="quick_commands_use">Использовать</string>
+    <string name="quick_commands_need_chat">Откройте чат</string>
+    <string name="nav_back">Назад</string>
+</resources>

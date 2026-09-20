@@ -15,12 +15,17 @@ On first open in Android Studio:
 
 Gradle Kotlin DSL + version catalog: gradle/libs.versions.toml
 AGP 8.7.3 · Kotlin 2.0.21 · Compose BOM 2024.12.01 · compileSdk 35 · minSdk 26
+androidx.security:security-crypto for EncryptedSharedPreferences
+
+OAuth:
+  - Device Code Grant (OkHttp) when TWITCH_CLIENT_ID is set
+  - Stub sign-in still available for demo UI
+  - Never put Client Secret in the app
 
 Known gaps (by design for MVP scaffold):
-  - No real Twitch OAuth Custom Tabs launch (structure + deep link only)
-  - Helix / IRC / 7TV are stubs with sample data
+  - Helix channels / IRC / 7TV are still stubs with sample data
   - No Coil image loading wired for emote URLs yet
   - No unit/UI tests included
-  - Gradle wrapper scripts may need Studio to bootstrap if not present
+  - Token refresh on expiry not automated yet
 
 Zip excludes: .gradle/, build/, local.properties, *.iml

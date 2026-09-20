@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="twitch_purple">#FF9147FF</color>
+    <color name="twitch_purple_dark">#FF772CE8</color>
+    <color name="mod_bg">#FF0E0E10</color>
+    <color name="mod_surface">#FF18181B</color>
+    <color name="mod_surface_variant">#FF1F1F23</color>
+    <color name="mod_on_surface">#FFEFEFF1</color>
+    <color name="mod_on_surface_muted">#FFADADB8</color>
+    <color name="mod_live_red">#FFEB0400</color>
+    <color name="mod_accent">#FF00F2EA</color>
+    <color name="ic_launcher_background">#FF0E0E10</color>
+</resources>
