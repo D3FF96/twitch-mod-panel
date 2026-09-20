@@ -91,6 +91,7 @@ fun StreamPanel(
             )
         }
         StreamMiniStrip(
+            channelLogin = channelLogin,
             displayName = displayName,
             isLive = isLive,
             expanded = expanded,
@@ -103,6 +104,7 @@ fun StreamPanel(
 
 @Composable
 private fun StreamMiniStrip(
+    channelLogin: String,
     displayName: String,
     isLive: Boolean,
     expanded: Boolean,
