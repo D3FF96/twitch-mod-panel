@@ -1,0 +1,10 @@
+## Copy this file to local.properties and fill in values.
+## NEVER commit local.properties or real secrets.
+
+## SDK path (Android Studio usually writes this automatically):
+# sdk.dir=/Users/YOU/Library/Android/sdk
+# sdk.dir=C\:\\Users\\YOU\\AppData\\Local\\Android\\Sdk
+# sdk.dir=/home/YOU/Android/Sdk
+
+## Twitch Developer Console → Applications → your app → Client ID
+TWITCH_CLIENT_ID=your_twitch_client_id_here

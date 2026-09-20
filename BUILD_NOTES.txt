@@ -1,0 +1,26 @@
+BUILD NOTES — Twitch Mod Panel scaffold
+========================================
+
+This Linux box does not (reliably) contain a full Android SDK / Gradle wrapper
+cache suitable for assembling APKs. The source tree is complete and intended to
+be opened on a developer PC with Android Studio.
+
+On first open in Android Studio:
+  1. Let Studio generate/download the Gradle wrapper if gradlew is missing or
+     incomplete.
+  2. Sync project with Gradle files.
+  3. Copy local.properties.example → local.properties and set sdk.dir +
+     TWITCH_CLIENT_ID.
+  4. Run :app (debug).
+
+Gradle Kotlin DSL + version catalog: gradle/libs.versions.toml
+AGP 8.7.3 · Kotlin 2.0.21 · Compose BOM 2024.12.01 · compileSdk 35 · minSdk 26
+
+Known gaps (by design for MVP scaffold):
+  - No real Twitch OAuth Custom Tabs launch (structure + deep link only)
+  - Helix / IRC / 7TV are stubs with sample data
+  - No Coil image loading wired for emote URLs yet
+  - No unit/UI tests included
+  - Gradle wrapper scripts may need Studio to bootstrap if not present
+
+Zip excludes: .gradle/, build/, local.properties, *.iml
